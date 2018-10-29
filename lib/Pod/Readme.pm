@@ -191,6 +191,11 @@ use Types::Standard qw/ Bool Maybe Str /;
 
 use Pod::Readme::Types qw/ File WriteIO /;
 
+# RECOMMEND PREREQ: Pod::Simple::LaTeX
+# RECOMMEND PREREQ: Pod::Man
+# RECOMMEND PREREQ: Pod::Markdown
+# RECOMMEND PREREQ: Pod::Markdown::Github
+
 =head1 ATTRIBUTES
 
 This module extends L<Pod::Readme::Filter> with the following

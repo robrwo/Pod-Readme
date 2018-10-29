@@ -25,6 +25,11 @@ requires "Types::Standard" => "0";
 requires "feature" => "0";
 requires "namespace::autoclean" => "0";
 requires "perl" => "v5.10.1";
+recommends "Pod::Man" => "0";
+recommends "Pod::Markdown" => "0";
+recommends "Pod::Markdown::Github" => "0";
+recommends "Pod::Simple::LaTeX" => "0";
+recommends "Type::Tiny::XS" => "0";
 
 on 'test' => sub {
   requires "Cwd" => "0";
